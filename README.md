@@ -16,6 +16,9 @@ To see a demo for any part, just open any notebook and run it and see the reulst
 - Python 3
 - Jupyter notebook
 - Pandas
+- json
+- os
+- logging
 - Numpy
 - XML
 - Docx
