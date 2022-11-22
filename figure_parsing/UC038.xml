@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-07T12:26:02.902Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TeZPaT-ASFh4x6jBc-Q-" version="20.0.4" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="AN_1" class="component" value="AN_1" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="970" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Continuous monitoring equipment&amp;nbsp;" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Continuous monitoring equipment " id="FYOU-elSuGR06oLj3YLD-16">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="70" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="The control loop identifies the need to replace faulty equipment" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="The control loop identifies the need to replace faulty equipment" id="czjuegxKHnn1F4WWycM0-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="8" y="150" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Successfully replaced the faulty equipment" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Successfully replaced the faulty equipment" id="czjuegxKHnn1F4WWycM0-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="8" y="710" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Continuous monitoring of new equipment&amp;nbsp;" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Continuous monitoring of new equipment " id="gVJI26tAq1K0RB4PYxhG-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="8" y="800" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Operations team" class="component" value="Operations team" id="czjuegxKHnn1F4WWycM0-3">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="290" y="80" width="128" height="860" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Configures and deploy the equipment" parent="czjuegxKHnn1F4WWycM0-3" class="function" value="Configures and deploy the equipment" id="czjuegxKHnn1F4WWycM0-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="czjuegxKHnn1F4WWycM0-3" vertex="1">
+            <mxGeometry y="570" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Sandbox environment" class="component" value="Sandbox environment" id="czjuegxKHnn1F4WWycM0-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="470" y="80" width="128" height="980" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Testing of equipment and generate test results" parent="czjuegxKHnn1F4WWycM0-5" class="function" value="Testing of equipment and generate test results" id="czjuegxKHnn1F4WWycM0-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="czjuegxKHnn1F4WWycM0-5" vertex="1">
+            <mxGeometry x="4" y="465" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="notification to respective team to configure the equipment" id="czjuegxKHnn1F4WWycM0-12">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="248" y="570" as="sourcePoint" />
+              <mxPoint x="298" y="520" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="260" y="460" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="Equipment purchase order request" id="czjuegxKHnn1F4WWycM0-15">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="gVJI26tAq1K0RB4PYxhG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="570" as="sourcePoint" />
+              <mxPoint x="723.5" y="570" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="290" y="320" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="test report response" id="czjuegxKHnn1F4WWycM0-16">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="425" y="640" as="sourcePoint" />
+              <mxPoint x="475" y="590" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="340" y="620" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="updated shared agreement response" id="czjuegxKHnn1F4WWycM0-21">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="530" y="760" as="sourcePoint" />
+              <mxPoint x="180" y="760" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="346.5" y="760" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Inventory systems" class="component" value="Inventory systems" id="gVJI26tAq1K0RB4PYxhG-1">
+          <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="690" y="80" width="80" height="990" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="provide equipment details fro local storage or place a purchase order" parent="gVJI26tAq1K0RB4PYxhG-1" class="function" value="provide equipment details fro local storage or place a purchase order" id="czjuegxKHnn1F4WWycM0-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="gVJI26tAq1K0RB4PYxhG-1" vertex="1">
+            <mxGeometry x="-20" y="260" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="Equipment purchase order response(local storage)" id="gVJI26tAq1K0RB4PYxhG-2">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="gVJI26tAq1K0RB4PYxhG-1" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="193.5" y="420" as="sourcePoint" />
+              <mxPoint x="739.5" y="420" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="300" y="420" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="two-way" value="configuration of equipment like cabling, power up, connectivity" id="gVJI26tAq1K0RB4PYxhG-3">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="czjuegxKHnn1F4WWycM0-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="400" y="520" as="sourcePoint" />
+              <mxPoint x="450" y="470" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="480" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="notification response" id="gVJI26tAq1K0RB4PYxhG-4">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="509.5" as="sourcePoint" />
+              <mxPoint x="360" y="509.5" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="266.5" y="509.5" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="start automated test request" id="gVJI26tAq1K0RB4PYxhG-5">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="530" as="sourcePoint" />
+              <mxPoint x="360" y="530" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="266.5" y="530" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="Deploy equipment request" id="gVJI26tAq1K0RB4PYxhG-6">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="180" y="640" as="sourcePoint" />
+              <mxPoint x="350" y="640" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="256.5" y="640" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="deploy equipment response" id="gVJI26tAq1K0RB4PYxhG-7">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="420" y="740" as="sourcePoint" />
+              <mxPoint x="180" y="740" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="263" y="740" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

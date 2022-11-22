@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-07T10:53:55.631Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-idm1r2nmuiYia5AkLIL" version="20.0.4" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Anatomy engine" class="component" value="Anatomy engine" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="OpenCN (repo)" class="component" value="OpenCN (repo)" id="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="80" width="150" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Workflow mediator" class="component" value="Workflow mediator" id="zC3GUYtYLZJMME5KEtJY-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=70;" parent="1" vertex="1">
+            <mxGeometry x="470" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Workflow manager" class="component" value="Workflow manager" id="GnHEJOMZmpAr0o-emK2q-6">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=0;size=60;" parent="1" vertex="1">
+            <mxGeometry x="620" y="80" width="130" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="onboard preloaded tasks" class="function" value="onboard preloaded tasks" parent="GnHEJOMZmpAr0o-emK2q-6" id="RZw-P6PKQ1Fnm1v1zIn_-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GnHEJOMZmpAr0o-emK2q-6">
+            <mxGeometry y="70" width="130" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Read, compile and store compiled controller specifications" class="critical relationship" dir="two-way" id="GnHEJOMZmpAr0o-emK2q-13">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="545" y="260" as="sourcePoint" />
+              <mxPoint x="360" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="450" y="260" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Create and store controller specifications" class="critical relationship" dir="two-way" id="GnHEJOMZmpAr0o-emK2q-15">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="361" y="320" as="sourcePoint" />
+              <mxPoint x="190" y="320" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="280" y="160" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Select workflow manager" class="critical relationship" dir="two-way" id="ic2gnVUYvxxCNHnFLTA8-3">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="690" y="239.5" as="sourcePoint" />
+              <mxPoint x="530" y="239.5" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="610" y="220" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Read controller specifications" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-2">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="525" y="260" as="sourcePoint" />
+              <mxPoint x="350" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="200" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Trigger experimentation on compiled controllers" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-4">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="RZw-P6PKQ1Fnm1v1zIn_-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="535" y="370" as="sourcePoint" />
+              <mxPoint x="360" y="370" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="450" y="290" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Trigger deployment on compiled controllers" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-5">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="RZw-P6PKQ1Fnm1v1zIn_-2" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="680" y="370" as="sourcePoint" />
+              <mxPoint x="530" y="370" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="617" y="310" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Ex manager" class="component" value="Ex manager" id="RZw-P6PKQ1Fnm1v1zIn_-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=0;size=60;" vertex="1" parent="1">
+            <mxGeometry x="790" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Deployment manager" class="component" value="Deployment manager" id="RZw-P6PKQ1Fnm1v1zIn_-2">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=0;size=60;" vertex="1" parent="1">
+            <mxGeometry x="950" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

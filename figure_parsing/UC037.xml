@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-07T12:02:27.621Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TnZUaPjkrEgIxoh8cdde" version="20.0.4" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="BS1" class="component" value="BS1" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="970" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Serving users" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Serving users" id="FYOU-elSuGR06oLj3YLD-16">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="120" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="The control loop identifies the need to expand coverage via other base stations" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="The control loop identifies the need to expand coverage via other base stations" id="czjuegxKHnn1F4WWycM0-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry y="270" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="The control loop prepares the agreement with required SLA for broadcast" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="The control loop prepares the agreement with required SLA for broadcast" id="czjuegxKHnn1F4WWycM0-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry y="370" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Evaluate the offers and prepare updated agreement" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Evaluate the offers and prepare updated agreement" id="czjuegxKHnn1F4WWycM0-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry y="560" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="The control loop identifies the reduced load" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="The control loop identifies the reduced load" id="czjuegxKHnn1F4WWycM0-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry x="8" y="780" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="heavy increase in number of users" class="critical relationship" dir="two-way" id="2or6aLTHv-XFW0oadx8D-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="354.5" y="350" as="sourcePoint" />
+              <mxPoint x="180" y="200" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="260" y="310" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Predefined agreement with BS2 to provide coverage for BS1 users" class="critical relationship" dir="two-way" id="2or6aLTHv-XFW0oadx8D-2">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="354.5" y="240" as="sourcePoint" />
+              <mxPoint x="180" y="240" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="240" y="180" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="BS2" class="component" value="BS2" id="czjuegxKHnn1F4WWycM0-3">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" vertex="1" parent="1">
+            <mxGeometry x="290" y="80" width="128" height="860" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Serving users (BS1 and BS2)" parent="czjuegxKHnn1F4WWycM0-3" class="function" value="Serving users (BS1 and BS2)" id="czjuegxKHnn1F4WWycM0-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="czjuegxKHnn1F4WWycM0-3">
+            <mxGeometry x="4" y="150" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="BS3" class="component" value="BS3" id="czjuegxKHnn1F4WWycM0-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" vertex="1" parent="1">
+            <mxGeometry x="470" y="80" width="128" height="980" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Serving BS1 users" parent="czjuegxKHnn1F4WWycM0-5" class="function" value="Serving BS1 users" id="czjuegxKHnn1F4WWycM0-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="czjuegxKHnn1F4WWycM0-5">
+            <mxGeometry x="4" y="710" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="BS4" class="component" value="BS4" id="czjuegxKHnn1F4WWycM0-7">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" vertex="1" parent="1">
+            <mxGeometry x="660" y="80" width="128" height="860" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Loaded maximum capacity" class="critical relationship" dir="two-way" id="czjuegxKHnn1F4WWycM0-9">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="350" y="330" as="sourcePoint" />
+              <mxPoint x="180" y="330" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="256.5" y="330" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="send message to share network/expand coverage agreement" id="czjuegxKHnn1F4WWycM0-12">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="248" y="570" as="sourcePoint" />
+              <mxPoint x="298" y="520" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="240" y="540" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="send message to share network/expand coverage agreement" id="czjuegxKHnn1F4WWycM0-15">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-7">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="570" as="sourcePoint" />
+              <mxPoint x="540" y="570" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="246.5" y="570" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="response with supported SLA offer" id="czjuegxKHnn1F4WWycM0-16">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="425" y="640" as="sourcePoint" />
+              <mxPoint x="475" y="590" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="350" y="600" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="response with supported SLA offer" id="czjuegxKHnn1F4WWycM0-17">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-7" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="543.5" y="630" as="sourcePoint" />
+              <mxPoint x="193.5" y="630" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="360" y="630" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="updated shared agreement request" id="czjuegxKHnn1F4WWycM0-19">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="730" as="sourcePoint" />
+              <mxPoint x="540" y="730" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="246.5" y="730" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="updated shared agreement response" id="czjuegxKHnn1F4WWycM0-21">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="530" y="760" as="sourcePoint" />
+              <mxPoint x="180" y="760" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="346.5" y="760" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="terminate shared agreement request(include billing details)" id="czjuegxKHnn1F4WWycM0-23">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="179" y="970" as="sourcePoint" />
+              <mxPoint x="529" y="970" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="242" y="970" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="terminate shared agreement response" id="czjuegxKHnn1F4WWycM0-24">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="543.5" y="1010" as="sourcePoint" />
+              <mxPoint x="193.5" y="1010" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="356.5" y="1010" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-21T13:20:41.156Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-uupUqPppCWLVuLzMgfH" version="20.1.4" type="google">
+  <diagram id="XyJGvk3KPgwSXRTwWX1-" name="Page-1">
+    <mxGraphModel dx="1030" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="OpenCN" class="component" value="OpenCN" id="XUe3mp-YTy2NTfpizqNI-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="170" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Open Sandbox" class="component" value="Open Sandbox" id="XUe3mp-YTy2NTfpizqNI-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="430" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Use case description" class="component" value="Use case description" id="XUe3mp-YTy2NTfpizqNI-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="190" y="210" width="70" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Analytics(e,g, AI/ML, GNN)" class="component" value="Analytics(e,g, AI/ML, GNN)" id="XUe3mp-YTy2NTfpizqNI-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="660" y="90" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Underlays (e.g +metadata_u)" class="component" value="Underlays (e.g +metadata_u)" id="39jZUd6ZIT9WTyUOlILU-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="430" y="220" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Optimization plug-ins (e.g. Game theory)" class="component" value="Optimization plug-ins (e.g. Game theory)" id="39jZUd6ZIT9WTyUOlILU-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="660" y="180" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

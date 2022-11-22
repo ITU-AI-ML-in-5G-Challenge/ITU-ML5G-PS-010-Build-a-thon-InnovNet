@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-06-30T23:10:09.776Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mjieezxFEST95Ur3EP2E" version="20.0.3" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="AN Sandbox" class="component" value="AN Sandbox" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="AN Component-1" class="component" value="AN component-1" id="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="80" width="150" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Evolution for edge based on abstracted network and app state and knowledge" class="function" value="Evolution for edge based on abstracted network and app state and knowledge" parent="3nuBFxr9cyL0pnOWT2aG-5" id="xvegJ0twhfIJswRUmYp4-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+            <mxGeometry y="190" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="NAO @ edge" class="component" value="NAO @ edge" id="zC3GUYtYLZJMME5KEtJY-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=70;" parent="1" vertex="1">
+            <mxGeometry x="470" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Private 5G &#xa;deployment @ edge" class="component" value="Private 5G deployment @ edge" id="GnHEJOMZmpAr0o-emK2q-6">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=0;size=60;" parent="1" vertex="1">
+            <mxGeometry x="620" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Closed loop report based on abstracted network and app state" class="critical relationship" dir="two-way" id="GnHEJOMZmpAr0o-emK2q-13">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="545" y="260" as="sourcePoint" />
+              <mxPoint x="360" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="450" y="260" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Trigger specific-app digital twins/simulators for ex" class="critical relationship" dir="two-way" id="GnHEJOMZmpAr0o-emK2q-15">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="361" y="320" as="sourcePoint" />
+              <mxPoint x="190" y="320" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="270" y="350" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Design network deployment architecture" class="critical relationship" dir="two-way" id="ic2gnVUYvxxCNHnFLTA8-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="705" y="210" as="sourcePoint" />
+              <mxPoint x="530" y="210" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="616" y="170" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Design application deployment" class="critical relationship" dir="two-way" id="ic2gnVUYvxxCNHnFLTA8-2">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="690" y="220" as="sourcePoint" />
+              <mxPoint x="530" y="220" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="620" y="200" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Design closed loops @ edge" class="critical relationship" dir="two-way" id="ic2gnVUYvxxCNHnFLTA8-3">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="690" y="239.5" as="sourcePoint" />
+              <mxPoint x="530" y="239.5" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="616" y="239.5" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Closed loops Report" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="680" y="260" as="sourcePoint" />
+              <mxPoint x="530" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="616.5" y="260" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Design closed loop @ edge, based on abstracted network and app state" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-2">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="525" y="260" as="sourcePoint" />
+              <mxPoint x="350" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="446" y="240" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="App recipes and network design recipes for edge report based on abstracted network and app state" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-4">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="535" y="370" as="sourcePoint" />
+              <mxPoint x="360" y="370" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="455.5" y="370" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="App recipes and network design recipes for edge" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-5">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="680" y="370" as="sourcePoint" />
+              <mxPoint x="530" y="370" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="617" y="370" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

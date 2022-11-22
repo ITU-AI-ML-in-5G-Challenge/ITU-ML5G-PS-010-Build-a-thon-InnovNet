@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-07T12:38:55.363Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="omSfSqufwaC4KWORSZgy" version="20.0.4" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Control loop" class="component" value="Control loop" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="970" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Identifies the need to deploy new control loop" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="The control loop identifies the need to replace faulty equipment" id="czjuegxKHnn1F4WWycM0-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="8" y="90" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Evaluate and select one to deploy" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Evaluate and select one to deploy" id="czjuegxKHnn1F4WWycM0-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="560" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Monitor the control loop app as per SLA and configure billing settings to vendors" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Continuous monitoring of new equipment " id="gVJI26tAq1K0RB4PYxhG-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="660" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Evaluate different control loops based on requirements and select(one or multiple) for download from store" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Evaluate different control loops based on requirements and select(one or multiple) for download from store" id="t-DcFkOFSOuVT6TEFlIc-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry x="4" y="260" width="120" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="AN_1" class="component" value="AN_1" id="czjuegxKHnn1F4WWycM0-3">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="290" y="80" width="128" height="860" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Sandbox environment" class="component" value="Sandbox environment" id="czjuegxKHnn1F4WWycM0-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="470" y="80" width="128" height="980" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Configure and test apps" parent="czjuegxKHnn1F4WWycM0-5" class="function" value="Configure and test apps" id="czjuegxKHnn1F4WWycM0-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="czjuegxKHnn1F4WWycM0-5" vertex="1">
+            <mxGeometry x="4" y="380" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Monitor behavior of apps per SLA and generate results for evaluation" parent="czjuegxKHnn1F4WWycM0-5" class="function" value="Monitor behavior of apps per SLA and generate results for evaluation" id="t-DcFkOFSOuVT6TEFlIc-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="czjuegxKHnn1F4WWycM0-5">
+            <mxGeometry x="4" y="450" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="check the availability of control loop" id="czjuegxKHnn1F4WWycM0-12">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="248" y="570" as="sourcePoint" />
+              <mxPoint x="298" y="520" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="250" y="260" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="check the availability of control loop" id="czjuegxKHnn1F4WWycM0-15">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="gVJI26tAq1K0RB4PYxhG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="570" as="sourcePoint" />
+              <mxPoint x="723.5" y="570" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="300" y="300" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="evaluation results of control loop apps" id="czjuegxKHnn1F4WWycM0-16">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="425" y="640" as="sourcePoint" />
+              <mxPoint x="475" y="590" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="340" y="620" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Control loop app store(public)" class="component" value="Control loop app store(public)" id="gVJI26tAq1K0RB4PYxhG-1">
+          <mxCell style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="690" y="80" width="80" height="990" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="availability response(details of control loop(could be more than one) like size, features, requirements)" id="gVJI26tAq1K0RB4PYxhG-2">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="gVJI26tAq1K0RB4PYxhG-1" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="193.5" y="420" as="sourcePoint" />
+              <mxPoint x="739.5" y="420" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="330" y="320" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="negative response" id="gVJI26tAq1K0RB4PYxhG-4">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="509.5" as="sourcePoint" />
+              <mxPoint x="360" y="509.5" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="270" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="Command to download the selected control loop apps in a sandbox environment" id="t-DcFkOFSOuVT6TEFlIc-6">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="gVJI26tAq1K0RB4PYxhG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="193.5" y="450" as="sourcePoint" />
+              <mxPoint x="739.5" y="450" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="310" y="450" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

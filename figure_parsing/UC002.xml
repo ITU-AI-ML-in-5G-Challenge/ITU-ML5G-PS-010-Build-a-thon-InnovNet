@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-05-28T17:16:34.552Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="po6PjHnNPK9B17X-Wo1C" version="18.1.2" type="google">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Knowledge Base" value="Knowledge base" class="component" id="7baba1c4bc27f4b0-2">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+            <mxGeometry x="620" y="50" width="100" height="670" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="An component-n" value="AN component-N" class="component" id="7baba1c4bc27f4b0-4">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+            <mxGeometry x="340" y="50" width="100" height="660" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Decide scenarios for experimentation" class="function" value="Decide scenarios for experimentation" parent="7baba1c4bc27f4b0-4" id="hNF3N-gYdaxl9yrA_X-p-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-4">
+            <mxGeometry y="80" width="100" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="hNF3N-gYdaxl9yrA_X-p-16" value="Trigger Experimentation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7baba1c4bc27f4b0-4">
+          <mxGeometry y="230" as="geometry">
+            <mxPoint x="129" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="AN Sandbox" value="AN Sandbox" class="component" id="7baba1c4bc27f4b0-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+            <mxGeometry x="480" y="50" width="100" height="660" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Monitor and analyze the experimination" value="Monitor and analyze the experimentation" class="function" parent="AN Sandbox" id="hNF3N-gYdaxl9yrA_X-p-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-5">
+            <mxGeometry y="290" width="100" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="hNF3N-gYdaxl9yrA_X-p-17" value="Report on Experimentation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7baba1c4bc27f4b0-5">
+          <mxGeometry x="-20" y="420" as="geometry" />
+        </mxCell>
+        <object label="An&amp;nbsp;component-1&amp;nbsp;" value="AN Component-1" class="component" id="DQFLAabhrVKbePpsEwng-2">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+            <mxGeometry x="200" y="50" width="110" height="660" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Decide scenarios for experimentation" value="Decide scenarios for experimentation" parent="DQFLAabhrVKbePpsEwng-2" class="function" id="hNF3N-gYdaxl9yrA_X-p-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DQFLAabhrVKbePpsEwng-2">
+            <mxGeometry x="5" y="80" width="100" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Trigger Experimentation" class="critical relation" id="hNF3N-gYdaxl9yrA_X-p-3">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DQFLAabhrVKbePpsEwng-2" target="7baba1c4bc27f4b0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="305" y="340" as="sourcePoint" />
+              <mxPoint x="355" y="290" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="280" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="hNF3N-gYdaxl9yrA_X-p-15" value="Trigger Experimentation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNF3N-gYdaxl9yrA_X-p-3">
+          <mxGeometry x="-0.4364" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="" class="critical relation" value="Trigger Experimentation" id="hNF3N-gYdaxl9yrA_X-p-6">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="450" y="350" as="sourcePoint" />
+              <mxPoint x="500" y="300" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="320" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relation" value="Trigger Experimentation" id="hNF3N-gYdaxl9yrA_X-p-7">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7baba1c4bc27f4b0-4" target="7baba1c4bc27f4b0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="390" y="425" as="sourcePoint" />
+              <mxPoint x="530" y="425" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="450" y="480" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relation" value="Report on Experimentation" id="hNF3N-gYdaxl9yrA_X-p-8">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="DQFLAabhrVKbePpsEwng-2" target="7baba1c4bc27f4b0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="290" y="600" as="sourcePoint" />
+              <mxPoint x="340" y="550" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="430" y="560" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="optional relation" value="Update knowledge" id="hNF3N-gYdaxl9yrA_X-p-10">
+          <mxCell style="endArrow=classic;startArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="DQFLAabhrVKbePpsEwng-2" target="7baba1c4bc27f4b0-2">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="440" y="650" as="sourcePoint" />
+              <mxPoint x="490" y="600" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="440" y="640" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="hNF3N-gYdaxl9yrA_X-p-20" value="Update Knowledge" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hNF3N-gYdaxl9yrA_X-p-10">
+          <mxGeometry x="0.0241" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hNF3N-gYdaxl9yrA_X-p-19" value="Report on Experimentation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

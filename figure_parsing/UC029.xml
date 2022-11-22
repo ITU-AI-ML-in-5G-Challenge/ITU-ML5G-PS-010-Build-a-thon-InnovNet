@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-07T10:59:46.199Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NRTcNoWdAqjG_0W46SEW" version="20.0.4" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="3rd party developer" class="component" value="3rd party developer" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Intelligent maintenance &#xa;assistance system" class="component" value="Intelligent maintenance assistance system" id="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="80" width="150" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Backend" class="component" value="Backend" id="zC3GUYtYLZJMME5KEtJY-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=70;" parent="1" vertex="1">
+            <mxGeometry x="470" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Automated analysis using AI/ML" class="function" value="Automated analysis using AI/ML" parent="zC3GUYtYLZJMME5KEtJY-1" id="ImR_d7lqvREmYTwc5kYg-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="zC3GUYtYLZJMME5KEtJY-1" vertex="1">
+            <mxGeometry y="90" width="120" height="70" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Intelligent AR app &#xa;(Glasses)" class="component" value="Intelligent AR app&#xa;(Glasses)" id="GnHEJOMZmpAr0o-emK2q-6">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=0;size=60;" parent="1" vertex="1">
+            <mxGeometry x="620" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Evolution of analysis" class="critical relationship" dir="two-way" id="GnHEJOMZmpAr0o-emK2q-13">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="545" y="260" as="sourcePoint" />
+              <mxPoint x="360" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="450" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Create novel apps using SDK" class="critical relationship" dir="two-way" id="GnHEJOMZmpAr0o-emK2q-15">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="361" y="320" as="sourcePoint" />
+              <mxPoint x="190" y="320" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="260" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Automated collection of data" class="critical relationship" dir="two-way" id="ic2gnVUYvxxCNHnFLTA8-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="705" y="210" as="sourcePoint" />
+              <mxPoint x="530" y="210" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="610" y="160" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Automated rendering of service assistance" class="critical relationship" dir="two-way" id="ic2gnVUYvxxCNHnFLTA8-3">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="690" y="239.5" as="sourcePoint" />
+              <mxPoint x="530" y="239.5" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="610" y="250" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Evolution of data collection" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="zC3GUYtYLZJMME5KEtJY-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="680" y="260" as="sourcePoint" />
+              <mxPoint x="530" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="617" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Query regarding maintainance [data + alarms]" class="critical relationship" dir="two-way" id="xvegJ0twhfIJswRUmYp4-2">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="525" y="260" as="sourcePoint" />
+              <mxPoint x="350" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="446" y="250" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="Creating reports for humans" id="ImR_d7lqvREmYTwc5kYg-5">
+          <mxCell style="endArrow=none;startArrow=classic;html=1;rounded=0;" parent="1" source="CbnHUm4d5A5Ks9OA8him-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="90" y="320" as="sourcePoint" />
+              <mxPoint x="290" y="300" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="230" y="320" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="actor" value="human" id="CbnHUm4d5A5Ks9OA8him-1">
+          <mxCell style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="50" y="80" width="20" height="300" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

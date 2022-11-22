@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-21T13:24:38.063Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QMB6VHd87IhqFZx8ddXC" version="20.1.4" type="google">
+  <diagram id="XyJGvk3KPgwSXRTwWX1-" name="Page-1">
+    <mxGraphModel dx="1030" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Auto-controller-gen" class="component" value="Auto-controller-gen" id="XUe3mp-YTy2NTfpizqNI-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="165" y="100" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="OpenCN" class="component" value="OpenCN" id="XUe3mp-YTy2NTfpizqNI-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="650" y="230" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Compiler/Mapper (e,g, orchestrator)" class="component" value="Compiler/Mapper (e,g, orchestrator)" id="XUe3mp-YTy2NTfpizqNI-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="414" y="230" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Abstract format(e.g. TOSCA)" class="component" value="Abstract format(e.g. TOSCA)" id="XUe3mp-YTy2NTfpizqNI-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="170" y="230" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="GUI/CLI" class="component" value="GUI/CLI" id="XUe3mp-YTy2NTfpizqNI-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="160" y="340" width="130" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Underlays (e.g. + metadata-u)" class="component" value="Underlays (e.g. + metadata-u)" id="XUe3mp-YTy2NTfpizqNI-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="410" y="330" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

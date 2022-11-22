@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-06-28T10:22:23.199Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="0fSDgtOvWMf8NasUpZrX" version="20.0.3" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Industry vertical &#xa;solution provider" class="component" value="Industry vertical solution provider" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=70;" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="AN" class="component" value="AN" id="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="80" width="150" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Industry &#xa;vertical&#xa; applications" class="component" value="Industry vertical applications" id="zC3GUYtYLZJMME5KEtJY-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=70;" parent="1" vertex="1">
+            <mxGeometry x="490" y="80" width="100" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Intent + configuration" class="critical relationship" id="zC3GUYtYLZJMME5KEtJY-3">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="400" y="270" as="sourcePoint" />
+              <mxPoint x="450" y="220" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="270" y="160" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Triggers" class="optional relationship" id="zC3GUYtYLZJMME5KEtJY-8">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="GnHEJOMZmpAr0o-emK2q-8" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="430" y="330" as="sourcePoint" />
+              <mxPoint x="450" y="220" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="450" y="340" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Sandbox" class="component" value="Sandbox" id="GnHEJOMZmpAr0o-emK2q-6">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="640" y="80" width="100" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Network services" class="component" value="Network services" id="GnHEJOMZmpAr0o-emK2q-7">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="790" y="80" width="100" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Service LCM" class="component" value="Service LCM" id="GnHEJOMZmpAr0o-emK2q-8">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="950" y="80" width="100" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Abstracted interface" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-9">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="351" y="180" as="sourcePoint" />
+              <mxPoint x="180" y="180" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="266.5" y="180" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Technology specific APIs" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-10">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="531" y="180" as="sourcePoint" />
+              <mxPoint x="360" y="180" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="441.26" y="180" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Technology specific APIs" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-11">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-7" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="531" y="210" as="sourcePoint" />
+              <mxPoint x="360" y="210" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="441.26" y="210" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Experimentation" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-12">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-6" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="521" y="229.5" as="sourcePoint" />
+              <mxPoint x="350" y="229.5" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="428.64" y="229.5" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Monitoring" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-13">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="545" y="260" as="sourcePoint" />
+              <mxPoint x="360" y="260" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="446.76" y="260" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Monitoring" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-14">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="GnHEJOMZmpAr0o-emK2q-7" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="835" y="280" as="sourcePoint" />
+              <mxPoint x="350" y="280" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="436.76" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Reports" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-15">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="361" y="320" as="sourcePoint" />
+              <mxPoint x="190" y="320" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="273" y="320" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Recipes" class="critical relationship" id="GnHEJOMZmpAr0o-emK2q-16">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="361" y="360" as="sourcePoint" />
+              <mxPoint x="190" y="360" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="279.5" y="360" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

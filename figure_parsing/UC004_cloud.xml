@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-21T13:08:16.126Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iW6idK5NFbdhpzRUcLRt" version="20.0.4" type="google">
+  <diagram id="XyJGvk3KPgwSXRTwWX1-" name="Page-1">
+    <mxGraphModel dx="1030" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="OpenCN" class="component" value="OpenCN" id="XUe3mp-YTy2NTfpizqNI-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="490" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="AN orchestrator" class="component" value="AN orchestrator" id="XUe3mp-YTy2NTfpizqNI-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="170" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Underlay" class="component" value="Underlay" id="U_PBexBtTR0cMutKhcaU-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="490" y="200" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Underlay" class="component" value="Underlay" id="U_PBexBtTR0cMutKhcaU-3">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="170" y="220" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

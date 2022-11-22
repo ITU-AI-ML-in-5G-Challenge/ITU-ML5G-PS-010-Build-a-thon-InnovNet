@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-07T13:02:17.094Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oxvVobg-poNKsfkAegMF" version="20.0.4" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="AN_1" class="component" value="AN_1" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="970" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Serving traffic/requests" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Serving traffic/requests" id="FYOU-elSuGR06oLj3YLD-16">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="120" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Heavy burst of traffic" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Heavy burst of traffic" id="czjuegxKHnn1F4WWycM0-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="170" width="120" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="The control loop Identifies the lack of computing and storage to serve the requests and maintain the desired quality of services" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="The control loop Identifies the lack of computing and storage to serve the requests and maintain the desired quality of services" id="czjuegxKHnn1F4WWycM0-11">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="210" width="120" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Control loop evaluates the responses from AN_2 and AN_3 based on its requirements" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Control loop evaluates the responses from AN_2 and AN_3 based on its requirements" id="czjuegxKHnn1F4WWycM0-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="8" y="420" width="120" height="90" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Serving maximum traffics" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Serving maximum traffics" id="czjuegxKHnn1F4WWycM0-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="580" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="reduced traffic load" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="reduced traffic load" id="TW3I5tIefaANrAys8Z2g-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry x="8" y="670" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="The control loop Identifies the reduced traffic load and generate resource release request to AN_2 and underlays network" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="The control loop Identifies the reduced traffic load and generate resource release request to AN_2 and underlays network" id="TW3I5tIefaANrAys8Z2g-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry x="8" y="730" width="120" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" value="Discovery of AN is prerequisite" class="critical relationship" dir="two-way" id="2or6aLTHv-XFW0oadx8D-2">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="354.5" y="240" as="sourcePoint" />
+              <mxPoint x="180" y="240" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="240" y="180" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="AN_2" class="component" value="AN_2" id="czjuegxKHnn1F4WWycM0-3">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="290" y="80" width="128" height="970" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Serving offloaded traffic" parent="czjuegxKHnn1F4WWycM0-3" class="function" value="Serving offloaded traffic" id="TW3I5tIefaANrAys8Z2g-9">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="czjuegxKHnn1F4WWycM0-3">
+            <mxGeometry x="8" y="610" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="AN_3" class="component" value="AN_3" id="czjuegxKHnn1F4WWycM0-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="470" y="80" width="128" height="980" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="AN_1 sends request to other reachable AN to offload traffic" id="czjuegxKHnn1F4WWycM0-12">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="248" y="570" as="sourcePoint" />
+              <mxPoint x="298" y="520" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="250" y="450" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="response with capability SLA" id="czjuegxKHnn1F4WWycM0-16">
+          <mxCell style="endArrow=classic;html=1;rounded=0;fontStyle=1" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="425" y="640" as="sourcePoint" />
+              <mxPoint x="475" y="590" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="350" y="480" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="context release response(include billing request as per SLA)" id="czjuegxKHnn1F4WWycM0-21">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="530" y="760" as="sourcePoint" />
+              <mxPoint x="180" y="760" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="280" y="1010" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="two-way" value="AN_1 deconfigures the networks underlays" id="czjuegxKHnn1F4WWycM0-23">
+          <mxCell style="endArrow=classic;html=1;rounded=0;startArrow=classic;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="179" y="970" as="sourcePoint" />
+              <mxPoint x="529" y="970" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="242" y="970" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="context release request" id="czjuegxKHnn1F4WWycM0-24">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="543.5" y="1010" as="sourcePoint" />
+              <mxPoint x="350" y="1010" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="270" y="990" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Discovery of AN is prerequisite" class="critical relationship" dir="two-way" id="TW3I5tIefaANrAys8Z2g-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-5" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="363.5" y="190" as="sourcePoint" />
+              <mxPoint x="193.5" y="190" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="300" y="190" />
+                <mxPoint x="250" y="190" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="AN_1 sends request to other reachable AN to offload traffic" id="TW3I5tIefaANrAys8Z2g-2">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="193.5" y="430" as="sourcePoint" />
+              <mxPoint x="543.5" y="430" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="260" y="430" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="response with capability SLA" id="TW3I5tIefaANrAys8Z2g-3">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="543.5" y="490" as="sourcePoint" />
+              <mxPoint x="193.5" y="490" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="280" y="490" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="negative acknowledgement for the unicast reply" id="TW3I5tIefaANrAys8Z2g-4">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="600" as="sourcePoint" />
+              <mxPoint x="540" y="600" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="256.5" y="600" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="Configuration and context setup request required to handle the offload traffic " id="TW3I5tIefaANrAys8Z2g-6">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="193.5" y="440" as="sourcePoint" />
+              <mxPoint x="363.5" y="440" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="280" y="610" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="context setup response" id="TW3I5tIefaANrAys8Z2g-7">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="czjuegxKHnn1F4WWycM0-3" target="3nuBFxr9cyL0pnOWT2aG-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="363.5" y="500" as="sourcePoint" />
+              <mxPoint x="193.5" y="500" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="290" y="630" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="one-way" value="AN_1 configures the network underlays for routing, policing up to AN_2" id="TW3I5tIefaANrAys8Z2g-8">
+          <mxCell style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="650" as="sourcePoint" />
+              <mxPoint x="360" y="650" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="286.5" y="650" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="two-way" value="AN_1  pays AN_2 for the service" id="TW3I5tIefaANrAys8Z2g-19">
+          <mxCell style="endArrow=classic;html=1;rounded=0;startArrow=classic;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="czjuegxKHnn1F4WWycM0-3">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="180" y="1040" as="sourcePoint" />
+              <mxPoint x="350" y="1040" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="240" y="1030" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

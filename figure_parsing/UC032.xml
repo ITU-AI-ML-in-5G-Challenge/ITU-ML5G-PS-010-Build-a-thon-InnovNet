@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-07-07T10:56:48.138Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="biT5-VljkmnKD15Yq8Aa" version="20.0.4" type="google">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1036" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="AN Orchestrator" class="component" value="AN orchestrator" id="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;fontStyle=0" parent="1" vertex="1">
+            <mxGeometry x="120" y="80" width="128" height="380" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Controller evolution" parent="3nuBFxr9cyL0pnOWT2aG-1" class="function" value="Controller evolution" id="FYOU-elSuGR06oLj3YLD-16">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+            <mxGeometry x="4" y="210" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="OpenCN (repo)" class="component" value="OpenCN (repo)" id="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="280" y="80" width="150" height="380" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="AN Sandbox" class="component" value="AN Sandbox" id="zC3GUYtYLZJMME5KEtJY-1">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=70;" parent="1" vertex="1">
+            <mxGeometry x="470" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Closed loop&#xa; automation &#xa;frameworks" class="component" value="Closed loop automation frameworks" id="GnHEJOMZmpAr0o-emK2q-6">
+          <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=0;size=60;" parent="1" vertex="1">
+            <mxGeometry x="620" y="80" width="120" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" class="actor" value="Control loop designer" id="FYOU-elSuGR06oLj3YLD-10">
+          <mxCell style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="30" y="80" width="20" height="300" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" value="Intent based design, composition and Ev of coltrollers" dir="two-way" id="FYOU-elSuGR06oLj3YLD-7">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="FYOU-elSuGR06oLj3YLD-10" target="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="100" y="220" as="sourcePoint" />
+              <mxPoint x="140" y="180" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="120" y="170" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" value="Experimentation::model new games, level of trust, strategies" dir="two-way" id="FYOU-elSuGR06oLj3YLD-12">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="zC3GUYtYLZJMME5KEtJY-1" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="40" y="220" as="sourcePoint" />
+              <mxPoint x="184" y="220" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="280" y="220" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" class="critical relationship" dir="two-way" value="Learn new classes of players, strategies and equilibrium" id="FYOU-elSuGR06oLj3YLD-14">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" target="GnHEJOMZmpAr0o-emK2q-6" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="180" y="320" as="sourcePoint" />
+              <mxPoint x="676" y="320" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="427" y="280" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Model initial game and players" class="critical relationship" dir="two-way" id="WvkMGPQ_1R5Ahx0Xea4i-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="351" y="180" as="sourcePoint" />
+              <mxPoint x="180" y="180" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="256.5" y="180" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Controller upload" class="critical relationship" dir="two-way" id="WvkMGPQ_1R5Ahx0Xea4i-3">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="351" y="440" as="sourcePoint" />
+              <mxPoint x="180" y="440" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="253" y="370" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Trust grades are established" class="critical relationship" dir="two-way" id="2or6aLTHv-XFW0oadx8D-1">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="351" y="200" as="sourcePoint" />
+              <mxPoint x="180" y="200" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="253" y="200" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" value="Controller Ev and adaptations" class="critical relationship" dir="two-way" id="2or6aLTHv-XFW0oadx8D-2">
+          <mxCell style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-5" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="351" y="240" as="sourcePoint" />
+              <mxPoint x="180" y="240" as="targetPoint" />
+              <Array as="points">
+                <mxPoint x="249.5" y="240" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
