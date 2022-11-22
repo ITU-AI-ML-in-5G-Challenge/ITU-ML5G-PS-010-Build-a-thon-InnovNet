@@ -3,7 +3,7 @@
 # Deriving New Use cases According to link Prediction Algorithm:
 
 ## 0. Problem Statement:
-This Work is to be submitted to the ITU as a part of ITU ML5G Challenge and under the problem 10 which is BYOC(Build your own closed loop), and the aim of this project is build a new closed loop to discover the possibility of new use cases of Autonomous network, based on the previuos use cases came from the provided document.[FGAN-O-013-R1]
+This Work to be submitted to the ITU as a part of ITU ML5G Challenge and under the problem 10 which is BYOC(Build your own closed loop), and the aim of this project is build a new closed loop to discover the possibility of new use cases of Autonomous network, based on the previuos use cases came from the provided document.[FGAN-O-013-R1]
 **![](https://lh4.googleusercontent.com/IAFy4NNG_JBLvN3c7MJA_NUVbJngXiHfBApz0M0lJBdyX97ggbHz1HANyDAhS-vowwkTw6iEeNyKId8YgOic1KR6p7eqMLZaTtmoRvx_7uaqLzxNzJEYDQI0q6xWRlx5GokSZnQva9uTVi_iKtzFNoqAm6hqgXfO3Fok1zc-hsl5x_t4bA9eDHLat4RdRU9Q)**
 
 ## 1. Report:
