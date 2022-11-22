@@ -7,8 +7,10 @@ This Work to be submitted to the ITU as a part of ITU ML5G Challenge and under t
 
 **![](https://lh4.googleusercontent.com/IAFy4NNG_JBLvN3c7MJA_NUVbJngXiHfBApz0M0lJBdyX97ggbHz1HANyDAhS-vowwkTw6iEeNyKId8YgOic1KR6p7eqMLZaTtmoRvx_7uaqLzxNzJEYDQI0q6xWRlx5GokSZnQva9uTVi_iKtzFNoqAm6hqgXfO3Fok1zc-hsl5x_t4bA9eDHLat4RdRU9Q)**
 
-## 1. Report:
+## 1. Report and demo:
 You can find the full report [here](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-010-Build-a-thon-InnovNet/blob/main/report/Final%20Report.pdf).
+
+To see a demo for any part, just open any notebook and run it and see the reulsts.
 
 ## 2. Libraries, software and tools used:
 - Python 3
