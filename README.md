@@ -11,6 +11,10 @@ This Work to be submitted to the ITU as a part of ITU ML5G Challenge and under t
 You can find the full report [here](https://github.com/ITU-AI-ML-in-5G-Challenge/ITU-ML5G-PS-010-Build-a-thon-InnovNet/blob/main/report/Final%20Report.pdf).
 
 To see a demo for any part, just open any notebook and run it and see the reulsts.
+## 1.1 Running the notebooks notes:
+- Please keep the structure of files.
+- Just run the notebook and it will show its results.
+- For any notebook that is working with Neo4j, please make sure that there is an open and running database in the given URI, with the given credentials.
 
 ## 2. Libraries, software and tools used:
 - Python 3
